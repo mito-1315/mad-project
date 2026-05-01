@@ -1,5 +1,54 @@
+# Dependencies
 node_modules/
 .env
+.env.local
+
+# Build outputs
 dist/
 build/
+*.apk
+*.aab
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ML Model files
+ml_model/saved_model/
+ml_model/env/
+
+# Android
+.gradle/
+local.properties
+*.jks
+*.keystore
+complaints_system-main/app/build/
+ComplaintsApp/.gradle/
+ComplaintsApp/app/build/
+ComplaintsApp/local.properties
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archives
 complaints_system-main.zip
+*.tar.gz
+*.zip
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
